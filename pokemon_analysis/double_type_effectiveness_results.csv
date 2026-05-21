@@ -1,0 +1,149 @@
+type1,type2,Count,Offensive_Score,Offensive_Coverage,Resistances,Weaknesses,Immunities,Defensive_Score
+bug,electric,4,5,"dark, flying, grass, psychic, water",4,2,0,2
+bug,fairy,2,5,"dark, dragon, fighting, grass, psychic",6,5,1,1
+bug,fighting,3,7,"dark, grass, ice, normal, psychic, rock, steel",5,4,0,1
+bug,fire,2,6,"bug, dark, grass, ice, psychic, steel",6,3,0,3
+bug,flying,13,5,"bug, dark, fighting, grass, psychic",4,5,1,-1
+bug,ghost,1,4,"dark, ghost, grass, psychic",6,5,2,1
+bug,grass,6,6,"dark, grass, ground, psychic, rock, water",5,6,0,-1
+bug,ground,1,8,"dark, electric, fire, grass, poison, psychic, rock, steel",4,4,1,0
+bug,poison,11,4,"dark, fairy, grass, psychic",5,4,0,1
+bug,rock,3,7,"bug, dark, fire, flying, grass, ice, psychic",2,3,0,-1
+bug,steel,5,6,"dark, fairy, grass, ice, psychic, rock",9,1,1,8
+bug,water,3,6,"dark, fire, grass, ground, psychic, rock",5,3,0,2
+dark,dragon,4,3,"dragon, ghost, psychic",7,5,1,2
+dark,fighting,2,7,"dark, ghost, ice, normal, psychic, rock, steel",4,3,1,1
+dark,fire,2,6,"bug, ghost, grass, ice, psychic, steel",7,4,1,3
+dark,flying,5,5,"bug, fighting, ghost, grass, psychic",5,4,2,1
+dark,ghost,1,2,"ghost, psychic",4,1,3,3
+dark,ice,2,6,"dragon, flying, ghost, grass, ground, psychic",4,6,1,-2
+dark,psychic,2,4,"fighting, ghost, poison, psychic",1,2,1,-1
+dark,steel,2,5,"fairy, ghost, ice, psychic, rock",11,3,2,8
+dragon,electric,1,3,"dragon, flying, water",6,4,0,2
+dragon,fighting,2,6,"dark, dragon, ice, normal, rock, steel",7,5,0,2
+dragon,fire,1,5,"bug, dragon, grass, ice, steel",5,3,0,2
+dragon,flying,4,4,"bug, dragon, fighting, grass",6,4,1,2
+dragon,ground,4,6,"dragon, electric, fire, poison, rock, steel",4,3,1,1
+dragon,ice,1,4,"dragon, flying, grass, ground",3,5,0,-2
+dragon,psychic,2,3,"dragon, fighting, poison",6,6,0,0
+electric,electric,1,2,"flying, water",3,1,0,2
+electric,fairy,2,5,"dark, dragon, fighting, flying, water",6,2,1,4
+electric,flying,3,5,"bug, fighting, flying, grass, water",6,2,1,4
+electric,ghost,1,4,"flying, ghost, psychic, water",7,3,2,4
+electric,normal,2,2,"flying, water",4,2,1,2
+electric,steel,4,5,"fairy, flying, ice, rock, water",12,3,1,9
+fairy,flying,2,5,"bug, dark, dragon, fighting, grass",6,5,2,1
+fighting,dark,1,7,"dark, ghost, ice, normal, psychic, rock, steel",4,3,1,1
+fighting,flying,1,8,"bug, dark, fighting, grass, ice, normal, rock, steel",5,5,1,0
+fighting,ice,1,9,"dark, dragon, flying, grass, ground, ice, normal, rock, steel",3,6,0,-3
+fighting,psychic,2,7,"dark, fighting, ice, normal, poison, rock, steel",2,3,0,-1
+fighting,steel,1,6,"dark, fairy, ice, normal, rock, steel",9,3,1,6
+fire,dark,1,6,"bug, ghost, grass, ice, psychic, steel",7,4,1,3
+fire,dragon,1,5,"bug, dragon, grass, ice, steel",5,3,0,2
+fire,fighting,6,7,"bug, dark, grass, ice, normal, rock, steel",6,4,0,2
+fire,fire,1,4,"bug, grass, ice, steel",6,3,0,3
+fire,flying,6,5,"bug, fighting, grass, ice, steel",7,3,1,4
+fire,ground,2,8,"bug, electric, fire, grass, ice, poison, rock, steel",6,2,1,4
+fire,ice,2,7,"bug, dragon, flying, grass, ground, ice, steel",6,3,0,3
+fire,normal,2,4,"bug, grass, ice, steel",7,4,1,3
+fire,psychic,1,6,"bug, fighting, grass, ice, poison, steel",7,5,0,2
+fire,rock,1,6,"bug, fire, flying, grass, ice, steel",7,4,0,3
+fire,steel,1,6,"bug, fairy, grass, ice, rock, steel",10,3,1,7
+fire,water,1,7,"bug, fire, grass, ground, ice, rock, steel",5,3,0,2
+flying,dragon,2,4,"bug, dragon, fighting, grass",6,4,1,2
+ghost,dark,1,2,"ghost, psychic",4,1,3,3
+ghost,dragon,1,3,"dragon, ghost, psychic",8,5,2,3
+ghost,fairy,1,5,"dark, dragon, fighting, ghost, psychic",4,2,3,2
+ghost,fire,3,6,"bug, ghost, grass, ice, psychic, steel",9,5,2,4
+ghost,flying,2,5,"bug, fighting, ghost, grass, psychic",6,5,3,1
+ghost,grass,5,5,"ghost, ground, psychic, rock, water",6,5,2,1
+ghost,ground,2,7,"electric, fire, ghost, poison, psychic, rock, steel",6,5,3,1
+ghost,poison,3,4,"fairy, ghost, grass, psychic",6,4,2,2
+grass,dark,3,5,"ghost, ground, psychic, rock, water",7,7,1,0
+grass,fairy,5,6,"dark, dragon, fighting, ground, rock, water",7,5,1,2
+grass,fighting,3,7,"dark, ground, ice, normal, rock, steel, water",6,6,0,0
+grass,flying,6,6,"bug, fighting, grass, ground, rock, water",4,5,1,-1
+grass,ghost,1,5,"ghost, ground, psychic, rock, water",6,5,2,1
+grass,grass,1,3,"ground, rock, water",4,5,0,-1
+grass,ground,1,7,"electric, fire, ground, poison, rock, steel, water",3,4,1,-1
+grass,ice,2,6,"dragon, flying, grass, ground, rock, water",4,7,0,-3
+grass,poison,14,5,"fairy, grass, ground, rock, water",5,4,0,1
+grass,psychic,2,5,"fighting, ground, poison, rock, water",6,7,0,-1
+grass,steel,3,5,"fairy, ground, ice, rock, water",10,2,1,8
+ground,dark,3,7,"electric, fire, ghost, poison, psychic, rock, steel",6,6,2,0
+ground,dragon,2,6,"dragon, electric, fire, poison, rock, steel",4,3,1,1
+ground,electric,1,7,"electric, fire, flying, poison, rock, steel, water",5,4,1,1
+ground,fire,1,8,"bug, electric, fire, grass, ice, poison, rock, steel",3,3,1,0
+ground,flying,3,8,"bug, electric, fighting, fire, grass, poison, rock, steel",5,2,2,3
+ground,ghost,2,7,"electric, fire, ghost, poison, psychic, rock, steel",6,5,3,1
+ground,ground,2,5,"electric, fire, poison, rock, steel",3,3,1,0
+ground,ice,2,9,"dragon, electric, fire, flying, grass, ground, poison, rock, steel",3,3,1,0
+ground,psychic,2,6,"electric, fighting, fire, poison, rock, steel",5,6,1,-1
+ground,rock,3,8,"bug, electric, fire, flying, ice, poison, rock, steel",6,6,1,0
+ground,steel,1,7,"electric, fairy, fire, ice, poison, rock, steel",10,4,2,6
+ice,flying,2,6,"bug, dragon, fighting, flying, grass, ground",3,4,1,-1
+ice,ghost,1,6,"dragon, flying, ghost, grass, ground, psychic",5,5,2,0
+ice,ground,3,9,"dragon, electric, fire, flying, grass, ground, poison, rock, steel",2,5,1,-3
+ice,psychic,2,6,"dragon, fighting, flying, grass, ground, poison",2,6,0,-4
+ice,water,3,6,"dragon, fire, flying, grass, ground, rock",2,4,0,-2
+normal,dark,4,2,"ghost, psychic",1,1,1,0
+normal,dragon,1,1,dragon,5,4,1,1
+normal,fairy,4,3,"dark, dragon, fighting",4,2,2,2
+normal,fighting,2,5,"dark, ice, normal, rock, steel",4,4,1,0
+normal,flying,26,3,"bug, fighting, grass",4,3,2,1
+normal,grass,2,3,"ground, rock, water",5,6,1,-1
+normal,ground,1,5,"electric, fire, poison, rock, steel",4,4,2,0
+normal,psychic,3,2,"fighting, poison",2,2,1,0
+normal,water,1,3,"fire, ground, rock",5,3,1,2
+poison,bug,1,4,"dark, fairy, grass, psychic",5,4,0,1
+poison,dark,3,4,"fairy, ghost, grass, psychic",5,1,1,4
+poison,dragon,1,3,"dragon, fairy, grass",7,4,0,3
+poison,fighting,2,7,"dark, fairy, grass, ice, normal, rock, steel",6,3,0,3
+poison,fire,2,5,"bug, fairy, grass, ice, steel",8,4,0,4
+poison,flying,3,4,"bug, fairy, fighting, grass",6,4,1,2
+poison,ground,2,7,"electric, fairy, fire, grass, poison, rock, steel",6,4,1,2
+poison,poison,2,2,"fairy, grass",5,2,0,3
+poison,water,3,5,"fairy, fire, grass, ground, rock",8,3,0,5
+psychic,fairy,6,4,"dark, dragon, fighting, poison",3,3,1,0
+psychic,fighting,1,7,"dark, fighting, ice, normal, poison, rock, steel",2,3,0,-1
+psychic,fire,1,6,"bug, fighting, grass, ice, poison, steel",7,5,0,2
+psychic,flying,6,4,"bug, fighting, grass, poison",4,5,1,-1
+psychic,ghost,2,4,"fighting, ghost, poison, psychic",4,2,2,2
+psychic,grass,1,5,"fighting, ground, poison, rock, water",6,7,0,-1
+psychic,steel,1,5,"fairy, fighting, ice, poison, rock",10,4,1,6
+rock,bug,2,7,"bug, dark, fire, flying, grass, ice, psychic",2,3,0,-1
+rock,dark,1,6,"bug, fire, flying, ghost, ice, psychic",7,7,1,0
+rock,dragon,2,5,"bug, dragon, fire, flying, ice",5,6,0,-1
+rock,fairy,2,7,"bug, dark, dragon, fighting, fire, flying, ice",6,4,1,2
+rock,fighting,1,8,"bug, dark, fire, flying, ice, normal, rock, steel",6,7,0,-1
+rock,flying,4,6,"bug, fighting, fire, flying, grass, ice",6,5,1,1
+rock,grass,2,7,"bug, fire, flying, ground, ice, rock, water",2,4,0,-2
+rock,ground,6,8,"bug, electric, fire, flying, ice, poison, rock, steel",6,6,1,0
+rock,ice,2,7,"bug, dragon, fire, flying, grass, ground, ice",4,6,0,-2
+rock,poison,1,6,"bug, fairy, fire, flying, grass, ice",6,4,0,2
+rock,psychic,2,6,"bug, fighting, fire, flying, ice, poison",5,7,0,-2
+rock,steel,3,6,"bug, fairy, fire, flying, ice, rock",9,3,1,6
+rock,water,6,6,"bug, fire, flying, ground, ice, rock",5,4,0,1
+steel,dragon,1,4,"dragon, fairy, ice, rock",10,2,1,8
+steel,fairy,3,6,"dark, dragon, fairy, fighting, ice, rock",11,2,2,9
+steel,fighting,1,6,"dark, fairy, ice, normal, rock, steel",9,3,1,6
+steel,flying,2,6,"bug, fairy, fighting, grass, ice, rock",10,2,2,8
+steel,ghost,3,5,"fairy, ghost, ice, psychic, rock",12,4,3,8
+steel,ground,1,7,"electric, fairy, fire, ice, poison, rock, steel",10,4,2,6
+steel,psychic,6,5,"fairy, fighting, ice, poison, rock",10,4,1,6
+steel,rock,3,6,"bug, fairy, fire, flying, ice, rock",9,3,1,6
+water,bug,2,6,"dark, fire, grass, ground, psychic, rock",5,3,0,2
+water,dark,4,5,"fire, ghost, ground, psychic, rock",7,5,1,2
+water,dragon,2,4,"dragon, fire, ground, rock",3,2,0,1
+water,electric,2,5,"fire, flying, ground, rock, water",5,2,0,3
+water,fairy,4,6,"dark, dragon, fighting, fire, ground, rock",7,3,1,4
+water,fighting,2,7,"dark, fire, ground, ice, normal, rock, steel",7,5,0,2
+water,flying,7,6,"bug, fighting, fire, grass, ground, rock",6,2,1,4
+water,ghost,2,5,"fire, ghost, ground, psychic, rock",8,4,2,4
+water,grass,3,4,"fire, ground, rock, water",3,3,0,0
+water,ground,9,6,"electric, fire, ground, poison, rock, steel",5,1,1,4
+water,ice,3,6,"dragon, fire, flying, grass, ground, rock",2,4,0,-2
+water,poison,3,5,"fairy, fire, grass, ground, rock",8,3,0,5
+water,psychic,5,5,"fighting, fire, ground, poison, rock",6,5,0,1
+water,rock,4,6,"bug, fire, flying, ground, ice, rock",5,4,0,1
+water,steel,1,5,"fairy, fire, ground, ice, rock",11,3,1,8

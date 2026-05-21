@@ -1,0 +1,62 @@
+Pokemon has always been a major anime for me. As a kid I first discovered Pokemon through Pokemon Emerald and since then I got hooked. I played the mainline Gen 3 Pokemon games such as Pokemon Emerald, Sapphire, FireRed, Leaf Green, before proceeding to newer gen leading up to the NDS Pokemon games (Black, White, Black 2, White 2, Heartgold and Soulsilver) and eventually to the newest Switch games (Sword/Shield, Scarlet/Violet, Legends: Arceus). Now with the explosive popularity of Pokemon Legends: ZA, what better way to honor my childhood game than to study it deeper and analyze it through the eyes of an analyst.
+
+Using a public dataset compiled by generous and diehard people and open-sourced on Kaggle. I am able to retrieve a dataset of all 801 pokemon from Gens 1 to 7 including their stat totals, evolution points, japanese name, experience growth, and many more.
+
+As a long-time Pokemon player there are questions I had in the back of my mind and through the dataset I have I am able to answer these questions.
+
+The first order of business are the Pokemon Types. Like rock-paper-scissors, each type has its own weakness and strengths. But it's not that easy, Pokemon also has a concept called Double Typing where some Pokemon has two types instead of one making the matrix more complicated and exciting.
+
+Using Python libraries pandas, numpy and matplotlib inside VScode, I was able to generate a 18x18 matrix and populate them with damage multipliers.
+
+[type-match-matrix.png]
+
+With these data we can answer the following questions:
+
+Q1: From Generation 1 to 7, which Single typing is the MOST and LEAST common?
+Most common: Water — 61 single-type Water Pokémon.
+Least common: Flying — 1 single-type Flying Pokémon. Tornadus#641 is the ONLY single-type Flying Pokemon.
+
+Q2: From Generation 1 to 7, which Double typing is the MOST and LEAST common?
+Most common: Normal/Flying — 26 Pokémon.
+These types currently only has ONE pokemon each: Rock/Poison (Nihilego#793), Rock/Fighting (Terrakion#639), Steel/Fighting (Coballion#638), Steel/Dragon (Dialga#483), Water/Steel (Empoleon#395)
+
+Q3: Which Single Typing has the best offensive capability?
+
+For offense, the question is about which type can hit the most other types for super effective damage. Based on the matchup chart, Fighting and Ground are tied as the best offensive single types, with each type being super effective against 5 types. Fighting is strong against Normal, Ice, Rock, Dark, and Steel, making it very useful against tough and common defensive types. Ground is also powerful because it hits Fire, Electric, Poison, Rock, and Steel, including Electric, which is usually hard to counter. This shows that both types have strong attacking coverage, but they succeed in different matchups. Overall, the best offensive single type is a tie between Fighting and Ground.
+
+Q4: Which Single Typing has the best defensive capability?
+
+For defense, the focus is not about how hard a type can hit, but how well it can survive attacks from other types. Using the defensive score formula, resistances minus weaknesses, Steel is the best defensive single type with a score of 8. Steel has 11 resistances and only 3 weaknesses, which gives it one of the strongest defensive profiles in the game. This means Steel can safely take many attacks that would deal normal or heavy damage to other types. It works well as a defensive anchor because many types struggle to break through it. Based on this, Steel stands out as the best single type for defense.
+
+Q5: Which Single Typing has the worst offensive capability?
+
+For the worst offensive type, we look for the type that has the fewest super effective matchups. Normal is the weakest offensive single type because it does not hit any type for super effective damage. This means Normal-type attacks are never the best option when trying to exploit an opponent’s weakness. While Normal can still deal neutral damage to many types, it lacks the offensive pressure that types like Fighting, Ground, Fire, or Ice can provide. It also struggles against Rock and Steel, while Ghost is completely immune to Normal-type attacks. Because of this, Normal has the worst offensive capability among single types.
+
+Q6: Which Single Typing has the worst defensive capability?
+For the weakest defensive type, the analysis looks at how many resistances and weaknesses each type has. Ice is the worst defensive single type, with a defensive score of -3. It has only 1 resistance, which is against Ice itself, but it has 4 weaknesses: Fire, Fighting, Rock, and Steel. This makes Ice very risky defensively because many common attacking types can punish it. Even though Ice is often strong offensively, it does not perform well when used as a defensive type. So in this analysis, Ice has the worst defensive capability because it has too many weaknesses and too few resistances.
+
+
+Q7: Which Double Typing Pokemon has the best offensive capability?
+Fighting/Ice and Ground/Ice
+Both these types can hit 9 different types.
+Fighting/Ice are supereffective against Dark, Dragon, Flying, Grass, Ground, Ice, Normal, Rock, and Steel types.
+Ground/Ice are supereffective against Dragon, Electric, Fire, Flying, Grass, Ground, Poison, Rock, and Steel types.
+
+
+Q8: Which Double Typing Pokemon has the worst offensive capability?
+Normal/Dragon
+This type can only hit 1 type supereffectively: Dragon.
+
+
+Q9: Which Double Typing Pokemon has the best defensive capability?
+Electric/Steel and Steel/Fairy
+Both have a defensive score of 9.
+Electric/Steel resists Bug, Dragon, Electric, Fairy, Flying, Grass, Ice, Normal, Psychic, Rock, and Steel, and is immune to Poison.
+Steel/Fairy resists Bug, Dark, Fairy, Flying, Grass, Ice, Normal, Psychic, and Rock, and is immune to Dragon and Poison.
+
+
+Q10: Which Double Typing Pokemon has the worst defensive capability?
+Ice/Psychic
+It has a defensive score of -4.
+Ice/Psychic is very weak to Bug, Dark, Fire, Ghost, Rock, and Steel, and it only resists Ice and Psychic.
+
