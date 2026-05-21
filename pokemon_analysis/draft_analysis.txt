@@ -1,8 +1,8 @@
 Pokemon has always been a major anime for me. As a kid I first discovered Pokemon through Pokemon Emerald and since then I got hooked. I played the mainline Gen 3 Pokemon games such as Pokemon Emerald, Sapphire, FireRed, Leaf Green, before proceeding to newer gen leading up to the NDS Pokemon games (Black, White, Black 2, White 2, Heartgold and Soulsilver) and eventually to the newest Switch games (Sword/Shield, Scarlet/Violet, Legends: Arceus). Now with the explosive popularity of Pokemon Legends: ZA, what better way to honor my childhood game than to study it deeper and analyze it through the eyes of an analyst.
 
-Using a public dataset compiled by generous and diehard people and open-sourced on Kaggle. I am able to retrieve a dataset of all 801 pokemon from Gens 1 to 7 including their stat totals, evolution points, japanese name, experience growth, and many more.
+Using a public dataset compiled by generous and diehard people and open-sourced on Kaggle. I am now working with a much larger dataset of 1,190 Pokémon from Gens 1 to 9, including their stat totals, evolution points, Japanese name, experience growth, and many more.
 
-As a long-time Pokemon player there are questions I had in the back of my mind and through the dataset I have I am able to answer these questions.
+As a long-time Pokémon player there are questions I had in the back of my mind and through this updated dataset I am able to answer them more completely.
 
 The first order of business are the Pokemon Types. Like rock-paper-scissors, each type has its own weakness and strengths. But it's not that easy, Pokemon also has a concept called Double Typing where some Pokemon has two types instead of one making the matrix more complicated and exciting.
 
@@ -12,13 +12,13 @@ Using Python libraries pandas, numpy and matplotlib inside VScode, I was able to
 
 With these data we can answer the following questions:
 
-Q1: From Generation 1 to 7, which Single typing is the MOST and LEAST common?
-Most common: Water — 61 single-type Water Pokémon.
-Least common: Flying — 1 single-type Flying Pokémon. Tornadus#641 is the ONLY single-type Flying Pokemon.
+Q1: From Generation 1 to 9, which Single typing is the MOST and LEAST common?
+Most common: Water — 81 single-type Water Pokémon.
+Least common: Flying — 4 single-type Flying Pokémon. This includes Tornadus Incarnate Forme, Tornadus Therian Forme, Rookidee, and Corvisquire.
 
-Q2: From Generation 1 to 7, which Double typing is the MOST and LEAST common?
-Most common: Normal/Flying — 26 Pokémon.
-These types currently only has ONE pokemon each: Rock/Poison (Nihilego#793), Rock/Fighting (Terrakion#639), Steel/Fighting (Coballion#638), Steel/Dragon (Dialga#483), Water/Steel (Empoleon#395)
+Q2: From Generation 1 to 9, which Double typing is the MOST and LEAST common?
+Most common: Normal/Flying — 31 Pokémon.
+Several double-type combinations now only appear once, including Fire/Dark, Fighting/Electric, Fighting/Ice, Steel/Fighting, and Water/Steel.
 
 Q3: Which Single Typing has the best offensive capability?
 
