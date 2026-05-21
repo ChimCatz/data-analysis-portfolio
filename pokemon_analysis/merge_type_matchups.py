@@ -4,10 +4,12 @@ Uses the previous pokemon_gen1to7_dataset.csv matchup columns as reference.
 """
 
 import pandas as pd
+import re
 from pathlib import Path
 
 CLEANED_PATH = Path('pokemon_analysis/PokeStats_cleaned.csv')
 REFERENCE_PATH = Path('pokemon_analysis/pokemon_gen1to7_dataset.csv')
+SPECIAL_PATH = Path('pokemon_analysis/pokemon_special_classification.csv')
 OUTPUT_PATH = Path('pokemon_analysis/PokeStats_cleaned.csv')
 
 ATTACK_COLUMNS = [
@@ -64,6 +66,19 @@ def normalize_type(t: str) -> str:
     return str(t).strip().lower()
 
 
+def canonical_name(name: str) -> str:
+    if pd.isna(name):
+        return ''
+    text = str(name).strip().lower()
+    text = text.replace(':', ' ').replace('.', ' ').replace('’', "'")
+    text = re.sub(r"[^a-z0-9'\s-]", ' ', text)
+    text = re.sub(r'^\d+\s+', '', text)
+    text = re.sub(r"\b(?:mega|primal|incarnate|therian|altered|origin|land|sky|normal|attack|defense|speed|aria|pirouette|hero of many battles|crowned sword|crowned shield|single strike style|rapid strike style|ordinary form|resolute form|forme|form|confined|unbound|galarian|hisui)\b", ' ', text)
+    text = re.sub(r"\b([a-z]+)(?: \1)+\b", r'\1', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+
 def build_reference_mapping() -> pd.DataFrame:
     reference = pd.read_csv(REFERENCE_PATH)
     reference['type1'] = reference['type1'].astype(str).str.lower().str.strip()
@@ -73,13 +88,31 @@ def build_reference_mapping() -> pd.DataFrame:
     return group
 
 
+def build_special_mapping() -> pd.DataFrame:
+    special = pd.read_csv(SPECIAL_PATH)
+    special['name_clean'] = special['Name'].apply(canonical_name)
+    special = special[['name_clean', 'official_class', 'special_group']]
+    return special.drop_duplicates(subset=['name_clean'])
+
+
 def merge_matchups():
     cleaned = pd.read_csv(CLEANED_PATH)
+    cleaned = cleaned.drop(columns=['official_class', 'special_group'], errors='ignore')
     cleaned['type1'] = cleaned['type1'].astype(str).str.strip().str.lower()
     cleaned['type2'] = cleaned['type2'].fillna('').astype(str).str.strip().str.lower()
+    cleaned['name_clean'] = cleaned['name'].apply(canonical_name)
 
     reference = build_reference_mapping()
-    merged = cleaned.merge(reference, on=['type1', 'type2'], how='left', validate='m:1')
+    special = build_special_mapping()
+    if any(col not in cleaned.columns for col in ATTACK_COLUMNS):
+        merged = cleaned.merge(reference, on=['type1', 'type2'], how='left', validate='m:1')
+    else:
+        merged = cleaned.copy()
+
+    merged = merged.merge(special, on='name_clean', how='left', validate='m:1')
+    merged['official_class'] = merged['official_class'].fillna('normal')
+    merged['special_group'] = merged['special_group'].fillna('none')
+    merged = merged.drop(columns=['name_clean'])
 
     missing = merged[ATTACK_COLUMNS].isna().any(axis=1)
     if missing.any():

@@ -18,10 +18,16 @@ TYPE_NAMES = [
 def parse_type_line(text: str):
     text = text.strip()
     # strip leading ID
-    if len(text) < 3 or not text[:3].isdigit():
+    digits = ''
+    for ch in text:
+        if ch.isdigit():
+            digits += ch
+        else:
+            break
+    if not digits:
         return None, None, None
-    poke_id = text[:3]
-    rest = text[3:].strip()
+    poke_id = digits
+    rest = text[len(digits):].strip()
     rest_lower = rest.lower()
     # try type2 first
     for type2 in TYPE_NAMES + ['']:
@@ -36,6 +42,12 @@ def parse_type_line(text: str):
             prefix_lower = rest_lower
         for type1 in TYPE_NAMES:
             if prefix_lower.endswith(type1):
+                if type2 and type1 == type2:
+                    # Names like RegirockRock should be Regirock with single rock type
+                    name = rest[: -len(type1)].strip()
+                    if name:
+                        return poke_id, name, type1, None
+                    continue
                 name = prefix[: -len(type1)].strip()
                 if name:
                     return poke_id, name, type1, type2 or None
