@@ -60,3 +60,4 @@ Ice/Psychic
 It has a defensive score of -4.
 Ice/Psychic is very weak to Bug, Dark, Fire, Ghost, Rock, and Steel, and it only resists Ice and Psychic.
 
+Another vital aspect of every Pokemon are their stats. How cute they are, how well designed, NO. No those stats but how well they are in performance. There are 6 main Pokemon stats such as Attack, HP, Defense, Special Attack, Special Defense, and Speed. 
