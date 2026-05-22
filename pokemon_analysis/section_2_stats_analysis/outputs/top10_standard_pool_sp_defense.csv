@@ -1,0 +1,11 @@
+id,generation,name,type1,type2,total,hp,attack,defense,sp_attack,sp_defense,speed,base_egg_steps,base_happiness,capture_rate,experience_growth,height_m,weight_kg,against_bug,against_dark,against_dragon,against_electric,against_fairy,against_fight,against_fire,against_flying,against_ghost,against_grass,against_ground,against_ice,against_normal,against_poison,against_psychic,against_rock,against_steel,against_water,official_class,special_group,standard
+213,2,Shuckle,bug,rock,505,20,10,230,10,230,5,5120,70,190,1059860,0.6,20.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,0.5,1.0,2.0,2.0,2.0,normal,none,1
+671,6,Florges,fairy,,552,78,65,68,112,154,75,5120,70,45,1000000,1.1,10.0,0.5,0.5,0.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,normal,none,1
+703,6,Carbink,rock,fairy,500,50,50,150,50,150,50,6400,70,60,1250000,0.3,5.7,0.5,0.5,0.0,1.0,1.0,1.0,0.5,0.5,1.0,2.0,2.0,1.0,0.5,1.0,1.0,1.0,4.0,2.0,normal,none,1
+476,4,Probopass,rock,steel,525,60,55,145,75,150,40,5120,70,60,1000000,1.4,340.0,0.5,1.0,0.5,1.0,0.5,4.0,1.0,0.25,1.0,1.0,4.0,0.5,0.25,0.0,0.5,0.5,1.0,2.0,normal,none,1
+748,7,Toxapex,poison,water,495,50,63,152,53,142,35,5120,70,75,1000000,0.7,14.5,0.5,1.0,1.0,2.0,0.5,0.5,0.5,1.0,1.0,1.0,2.0,0.5,1.0,0.5,2.0,1.0,0.5,0.5,normal,none,1
+681,6,Aegislash Shield Forme,steel,ghost,500,60,50,140,50,140,60,5120,70,45,1000000,1.7,53.0,0.25,2.0,0.5,1.0,0.5,0.0,2.0,0.5,2.0,0.5,2.0,0.5,0.0,0.0,0.5,0.5,0.5,1.0,normal,none,1
+226,2,Mantine,water,flying,485,85,40,70,80,140,70,6400,70,25,1250000,2.1,220.0,0.5,1.0,1.0,4.0,1.0,0.5,0.5,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,2.0,0.5,0.5,normal,none,1
+411,4,Bastiodon,rock,steel,495,60,52,168,47,138,30,7680,70,45,600000,1.3,149.5,0.5,1.0,0.5,1.0,0.5,4.0,1.0,0.25,1.0,1.0,4.0,0.5,0.25,0.0,0.5,0.5,1.0,2.0,normal,none,1
+242,2,Blissey,normal,,540,255,10,10,75,135,55,10240,140,30,800000,1.5,46.8,1.0,1.0,1.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,normal,none,1
+615,5,Cryogonal,ice,,515,80,50,50,95,135,105,6400,70,25,1000000,1.1,148.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,2.0,2.0,1.0,normal,none,1

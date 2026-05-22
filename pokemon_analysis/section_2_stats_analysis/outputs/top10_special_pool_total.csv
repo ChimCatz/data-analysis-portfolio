@@ -1,0 +1,11 @@
+id,generation,name,type1,type2,total,hp,attack,defense,sp_attack,sp_defense,speed,base_egg_steps,base_happiness,capture_rate,experience_growth,height_m,weight_kg,against_bug,against_dark,against_dragon,against_electric,against_fairy,against_fight,against_fire,against_flying,against_ghost,against_grass,against_ground,against_ice,against_normal,against_poison,against_psychic,against_rock,against_steel,against_water,official_class,special_group,standard
+890,8,Eternatus Eternamax,poison,dragon,1125,255,115,250,125,250,130,30720,0,255,1250000,20.0,950.0,0.5,1.0,2.0,0.5,1.0,0.5,0.5,1.0,1.0,0.25,2.0,2.0,1.0,0.5,2.0,1.0,1.0,0.5,legendary,none,0
+150,1,Mega Mewtwo X,psychic,fighting,780,106,190,100,154,100,130,30720,0,3,1250000,2.0,122.0,1.0,1.0,1.0,1.0,2.0,0.5,1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,legendary,mega,0
+150,1,Mega Mewtwo Y,psychic,,780,106,150,70,194,120,140,30720,0,3,1250000,2.0,122.0,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,legendary,mega,0
+384,3,Mega Rayquaza,dragon,flying,780,105,180,100,180,100,115,30720,0,45,1250000,7.0,206.5,0.5,1.0,2.0,1.0,2.0,0.5,0.5,1.0,1.0,0.25,0.0,4.0,1.0,1.0,1.0,2.0,1.0,0.5,legendary,mega,0
+383,3,Primal Groudon,ground,fire,770,100,180,160,150,90,90,30720,0,3,1250000,3.5,950.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,2.0,1.0,2.0,1.0,0.5,1.0,0.5,1.0,2.0,legendary,none,0
+382,3,Primal Kyogre,water,,770,100,150,90,180,160,90,30720,0,3,1250000,4.5,352.0,1.0,1.0,1.0,2.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,0.5,1.0,1.0,1.0,1.0,0.5,0.5,legendary,none,0
+800,7,Ultra Necrozma,psychic,dragon,754,97,167,97,167,97,129,30720,0,255,1250000,2.4,230.0,2.0,2.0,2.0,0.5,2.0,0.5,0.5,1.0,2.0,0.5,1.0,2.0,1.0,1.0,0.5,1.0,1.0,0.5,legendary,none,0
+493,4,Arceus,normal,,720,120,120,120,120,120,120,30720,0,3,1250000,3.2,320.0,1.0,1.0,1.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,mythical,none,0
+718,6,Zygarde Complete Forme,dragon,ground,708,216,100,121,91,95,85,30720,0,3,1250000,5.0,305.0,1.0,1.0,2.0,0.0,2.0,1.0,0.5,1.0,1.0,1.0,1.0,4.0,1.0,0.5,1.0,0.5,1.0,1.0,legendary,none,0
+646,5,Black Kyurem,dragon,ice,700,125,170,100,120,90,95,30720,0,3,1250000,3.0,325.0,1.0,1.0,2.0,0.5,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,2.0,2.0,0.5,legendary,none,0

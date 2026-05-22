@@ -1,0 +1,11 @@
+id,generation,name,type1,type2,total,hp,attack,defense,sp_attack,sp_defense,speed,base_egg_steps,base_happiness,capture_rate,experience_growth,height_m,weight_kg,against_bug,against_dark,against_dragon,against_electric,against_fairy,against_fight,against_fire,against_flying,against_ghost,against_grass,against_ground,against_ice,against_normal,against_poison,against_psychic,against_rock,against_steel,against_water,official_class,special_group,standard
+150,1,Mega Mewtwo Y,psychic,,780,106,150,70,194,120,140,30720,0,3,1250000,2.0,122.0,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,legendary,mega,0
+386,3,Deoxys Attack Forme,psychic,,600,50,180,20,180,20,150,30720,0,3,1250000,1.7,60.8,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,mythical,none,0
+384,3,Mega Rayquaza,dragon,flying,780,105,180,100,180,100,115,30720,0,45,1250000,7.0,206.5,0.5,1.0,2.0,1.0,2.0,0.5,0.5,1.0,1.0,0.25,0.0,4.0,1.0,1.0,1.0,2.0,1.0,0.5,legendary,mega,0
+382,3,Primal Kyogre,water,,770,100,150,90,180,160,90,30720,0,3,1250000,4.5,352.0,1.0,1.0,1.0,2.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,0.5,1.0,1.0,1.0,1.0,0.5,0.5,legendary,none,0
+65,1,Mega Alakazam,psychic,,600,55,50,65,175,105,150,5120,70,50,1059860,1.5,48.0,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,normal,mega,0
+796,7,Xurkitree,electric,,570,83,89,71,173,71,83,30720,0,45,1250000,3.8,100.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,normal,ultra_beast,0
+720,6,Hoopa Hoopa Unbound,psychic,dark,680,80,160,60,170,130,80,30720,100,3,1250000,0.5,9.0,4.0,1.0,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,mythical,none,0
+94,1,Mega Gengar,ghost,poison,600,60,65,80,170,95,130,5120,70,45,1059860,1.5,40.5,0.25,2.0,1.0,1.0,0.5,0.0,1.0,1.0,2.0,0.5,2.0,1.0,0.0,0.25,2.0,1.0,1.0,1.0,normal,mega,0
+646,5,White Kyurem,dragon,ice,700,125,120,90,170,100,95,30720,0,3,1250000,3.0,325.0,1.0,1.0,2.0,0.5,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,2.0,2.0,0.5,legendary,none,0
+800,7,Ultra Necrozma,psychic,dragon,754,97,167,97,167,97,129,30720,0,255,1250000,2.4,230.0,2.0,2.0,2.0,0.5,2.0,0.5,0.5,1.0,2.0,0.5,1.0,2.0,1.0,1.0,0.5,1.0,1.0,0.5,legendary,none,0

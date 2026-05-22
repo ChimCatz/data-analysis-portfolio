@@ -1,0 +1,11 @@
+id,generation,name,type1,type2,total,hp,attack,defense,sp_attack,sp_defense,speed,base_egg_steps,base_happiness,capture_rate,experience_growth,height_m,weight_kg,against_bug,against_dark,against_dragon,against_electric,against_fairy,against_fight,against_fire,against_flying,against_ghost,against_grass,against_ground,against_ice,against_normal,against_poison,against_psychic,against_rock,against_steel,against_water,official_class,special_group,standard
+890,8,Eternatus Eternamax,poison,dragon,1125,255,115,250,125,250,130,30720,0,255,1250000,20.0,950.0,0.5,1.0,2.0,0.5,1.0,0.5,0.5,1.0,1.0,0.25,2.0,2.0,1.0,0.5,2.0,1.0,1.0,0.5,legendary,none,0
+378,3,Regice,ice,,580,80,50,100,100,200,50,20480,35,3,1250000,1.8,175.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,2.0,2.0,1.0,legendary,none,0
+386,3,Deoxys Defense Forme,psychic,,600,50,70,160,70,160,90,30720,0,3,1250000,1.7,60.8,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,mythical,none,0
+382,3,Primal Kyogre,water,,770,100,150,90,180,160,90,30720,0,3,1250000,4.5,352.0,1.0,1.0,1.0,2.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,0.5,1.0,1.0,1.0,1.0,0.5,0.5,legendary,none,0
+250,2,Ho-oh,fire,flying,680,106,130,90,110,154,90,30720,0,3,1250000,3.8,199.0,0.25,1.0,1.0,2.0,0.5,0.5,0.5,1.0,1.0,0.25,0.0,1.0,1.0,1.0,1.0,4.0,0.5,2.0,legendary,none,0
+249,2,Lugia,psychic,flying,680,106,90,130,90,154,110,30720,0,3,1250000,5.2,216.0,1.0,2.0,1.0,2.0,1.0,0.25,1.0,1.0,2.0,0.5,0.0,2.0,1.0,1.0,0.5,2.0,1.0,1.0,legendary,none,0
+719,6,Diancie,rock,fairy,600,50,100,150,100,150,50,6400,70,3,1250000,0.7,8.8,0.5,0.5,0.0,1.0,1.0,1.0,0.5,0.5,1.0,2.0,2.0,1.0,0.5,1.0,1.0,1.0,4.0,2.0,mythical,none,0
+706,6,Goodra,dragon,,600,90,100,70,110,150,80,10240,35,45,1250000,2.0,150.5,1.0,1.0,2.0,0.5,2.0,1.0,0.5,1.0,1.0,0.5,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,normal,pseudo_legendary,0
+706,6,Hisuian Goodra,steel,dragon,600,80,100,100,110,150,60,10240,35,45,1250000,2.0,150.5,0.5,1.0,1.0,0.5,1.0,2.0,1.0,0.5,1.0,0.25,2.0,1.0,0.5,0.0,0.5,0.5,0.5,0.5,normal,pseudo_legendary,0
+380,3,Mega Latias,dragon,psychic,700,80,100,120,140,150,110,30720,90,3,1250000,1.4,40.0,2.0,2.0,2.0,0.5,2.0,0.5,0.5,1.0,2.0,0.5,1.0,2.0,1.0,1.0,0.5,1.0,1.0,0.5,legendary,mega,0

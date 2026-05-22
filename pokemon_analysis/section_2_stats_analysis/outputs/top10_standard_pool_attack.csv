@@ -1,0 +1,11 @@
+id,generation,name,type1,type2,total,hp,attack,defense,sp_attack,sp_defense,speed,base_egg_steps,base_happiness,capture_rate,experience_growth,height_m,weight_kg,against_bug,against_dark,against_dragon,against_electric,against_fairy,against_fight,against_fire,against_flying,against_ghost,against_grass,against_ground,against_ice,against_normal,against_poison,against_psychic,against_rock,against_steel,against_water,official_class,special_group,standard
+409,4,Rampardos,rock,,495,97,165,60,65,50,58,7680,70,45,600000,1.6,102.5,1.0,1.0,1.0,1.0,1.0,2.0,0.5,0.5,1.0,2.0,2.0,1.0,0.5,0.5,1.0,1.0,2.0,2.0,normal,none,1
+555,5,Galarian Zen Mode,ice,fire,540,105,160,55,30,55,135,5120,70,60,1059860,1.3,92.9,0.5,1.0,1.0,1.0,0.5,2.0,1.0,1.0,1.0,0.5,2.0,0.25,1.0,1.0,1.0,4.0,1.0,2.0,normal,none,1
+964,9,Palafin Hero Form,water,,650,100,160,97,106,87,100,10240,50,45,1250000,1.3,60.2,1.0,1.0,1.0,2.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,0.5,1.0,1.0,1.0,1.0,0.5,0.5,normal,none,1
+289,3,Slaking,normal,,670,150,160,100,95,65,100,3840,70,45,1250000,2.0,130.5,1.0,1.0,1.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,normal,none,1
+612,5,Haxorus,dragon,,540,76,147,90,60,70,97,10240,35,45,1250000,1.8,105.5,1.0,1.0,2.0,0.5,2.0,1.0,0.5,1.0,1.0,0.5,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,normal,none,1
+658,6,Greninja Ash-Greninja,water,dark,640,72,145,67,153,71,132,5120,70,45,1059860,1.5,40.0,2.0,0.5,1.0,2.0,2.0,2.0,0.5,1.0,0.5,2.0,1.0,0.5,1.0,1.0,0.0,1.0,0.5,0.5,normal,none,1
+681,6,Aegislash Blade Forme,steel,ghost,500,60,140,50,140,50,60,5120,70,45,1000000,1.7,53.0,0.25,2.0,0.5,1.0,0.5,0.0,2.0,0.5,2.0,0.5,2.0,0.5,0.0,0.0,0.5,0.5,0.5,1.0,normal,none,1
+567,5,Archeops,rock,flying,567,75,140,65,112,65,110,7680,70,45,1000000,1.4,32.0,0.5,1.0,1.0,2.0,1.0,1.0,0.5,0.5,1.0,1.0,0.0,2.0,0.5,0.5,1.0,2.0,2.0,2.0,normal,none,1
+534,5,Conkeldurr,fighting,,505,105,140,95,55,65,45,5120,70,45,1059860,1.4,87.0,0.5,0.5,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,0.5,1.0,1.0,normal,none,1
+555,5,Darmanitan Standard Mode,fire,,480,105,140,55,30,55,95,5120,70,60,1059860,1.3,92.9,0.5,1.0,1.0,1.0,0.5,1.0,0.5,1.0,1.0,0.5,2.0,0.5,1.0,1.0,1.0,2.0,0.5,2.0,normal,none,1

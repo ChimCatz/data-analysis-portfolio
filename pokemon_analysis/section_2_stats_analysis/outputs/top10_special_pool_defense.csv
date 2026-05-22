@@ -1,0 +1,11 @@
+id,generation,name,type1,type2,total,hp,attack,defense,sp_attack,sp_defense,speed,base_egg_steps,base_happiness,capture_rate,experience_growth,height_m,weight_kg,against_bug,against_dark,against_dragon,against_electric,against_fairy,against_fight,against_fire,against_flying,against_ghost,against_grass,against_ground,against_ice,against_normal,against_poison,against_psychic,against_rock,against_steel,against_water,official_class,special_group,standard
+890,8,Eternatus Eternamax,poison,dragon,1125,255,115,250,125,250,130,30720,0,255,1250000,20.0,950.0,0.5,1.0,2.0,0.5,1.0,0.5,0.5,1.0,1.0,0.25,2.0,2.0,1.0,0.5,2.0,1.0,1.0,0.5,legendary,none,0
+306,3,Mega Aggron,steel,,630,70,140,230,60,80,50,8960,35,45,1250000,2.1,360.0,0.5,1.0,0.5,1.0,0.5,2.0,2.0,0.5,1.0,0.5,2.0,0.5,0.5,0.0,0.5,0.5,0.5,1.0,normal,mega,0
+208,2,Mega Steelix,steel,ground,610,75,125,230,55,95,30,6400,70,25,1000000,9.2,400.0,0.5,1.0,0.5,0.0,0.5,2.0,2.0,0.5,1.0,1.0,2.0,1.0,0.5,0.0,0.5,0.25,0.5,2.0,normal,mega,0
+805,7,Stakataka,rock,steel,570,61,131,211,53,101,13,30720,0,30,1250000,5.5,820.0,0.5,1.0,0.5,1.0,0.5,4.0,1.0,0.25,1.0,1.0,4.0,0.5,0.25,0.0,0.5,0.5,1.0,2.0,normal,ultra_beast,0
+377,3,Regirock,rock,,580,80,100,200,50,100,50,20480,35,3,1250000,1.7,230.0,1.0,1.0,1.0,1.0,1.0,2.0,0.5,0.5,1.0,2.0,2.0,1.0,0.5,0.5,1.0,1.0,2.0,2.0,legendary,none,0
+80,1,Mega Slowbro,water,psychic,590,95,75,180,130,80,30,5120,70,75,1000000,1.6,78.5,2.0,2.0,1.0,2.0,1.0,0.5,0.5,1.0,2.0,2.0,1.0,0.5,1.0,1.0,0.5,1.0,0.5,0.5,normal,mega,0
+386,3,Deoxys Defense Forme,psychic,,600,50,70,160,70,160,90,30720,0,3,1250000,1.7,60.8,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,mythical,none,0
+1025,9,Pecharunt,poison,ghost,600,88,88,160,88,88,88,5120,0,3,1250000,0.3,0.3,0.25,2.0,1.0,1.0,0.5,0.0,1.0,1.0,2.0,0.5,2.0,1.0,0.0,0.25,2.0,1.0,1.0,1.0,mythical,none,0
+383,3,Primal Groudon,ground,fire,770,100,180,160,150,90,90,30720,0,3,1250000,3.5,950.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,2.0,1.0,2.0,1.0,0.5,1.0,0.5,1.0,2.0,legendary,none,0
+898,8,Calyrex Ice Rider,psychic,ice,680,100,165,150,85,130,50,30720,100,3,1250000,1.1,7.7,2.0,2.0,1.0,1.0,1.0,1.0,2.0,1.0,2.0,1.0,1.0,0.5,1.0,1.0,0.5,2.0,2.0,1.0,legendary,none,0

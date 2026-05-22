@@ -1,0 +1,11 @@
+id,generation,name,type1,type2,total,hp,attack,defense,sp_attack,sp_defense,speed,base_egg_steps,base_happiness,capture_rate,experience_growth,height_m,weight_kg,against_bug,against_dark,against_dragon,against_electric,against_fairy,against_fight,against_fire,against_flying,against_ghost,against_grass,against_ground,against_ice,against_normal,against_poison,against_psychic,against_rock,against_steel,against_water,official_class,special_group,standard
+894,8,Regieleki,electric,,580,80,100,50,100,50,200,30720,35,3,1250000,1.2,145.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,legendary,none,0
+386,3,Deoxys Speed Forme,psychic,,600,50,95,90,95,90,180,30720,0,3,1250000,1.7,60.8,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,mythical,none,0
+795,7,Pheromosa,bug,fighting,570,71,137,37,137,37,151,30720,0,45,1250000,1.8,25.0,0.5,0.5,1.0,1.0,2.0,0.5,2.0,4.0,1.0,0.5,0.5,1.0,1.0,1.0,2.0,1.0,1.0,1.0,normal,ultra_beast,0
+898,8,Calyrex Shadow Rider,psychic,ghost,680,100,85,80,165,100,150,30720,100,3,1250000,1.1,7.7,1.0,4.0,1.0,1.0,1.0,0.0,1.0,1.0,4.0,1.0,1.0,1.0,0.0,0.5,0.5,1.0,1.0,1.0,legendary,none,0
+386,3,Deoxys Attack Forme,psychic,,600,50,180,20,180,20,150,30720,0,3,1250000,1.7,60.8,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,mythical,none,0
+386,3,Deoxys Normal Forme,psychic,,600,50,150,50,150,50,150,30720,0,3,1250000,1.7,60.8,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,mythical,none,0
+142,1,Mega Aerodactyl,rock,flying,615,80,135,85,70,95,150,8960,70,45,1250000,1.8,59.0,0.5,1.0,1.0,2.0,1.0,1.0,0.5,0.5,1.0,1.0,0.0,2.0,0.5,0.5,1.0,2.0,2.0,2.0,normal,mega,0
+65,1,Mega Alakazam,psychic,,600,55,50,65,175,105,150,5120,70,50,1059860,1.5,48.0,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,normal,mega,0
+888,8,Zacian Crowned Sword,fairy,steel,700,92,150,115,80,115,148,30720,0,10,1250000,2.8,110.0,0.25,0.5,0.0,1.0,0.5,1.0,2.0,0.5,0.5,0.5,2.0,0.5,0.5,0.0,0.5,0.5,1.0,1.0,legendary,none,0
+15,1,Mega Beedrill,bug,poison,495,65,150,40,15,80,145,3840,70,45,1000000,1.0,29.5,0.5,1.0,1.0,1.0,0.5,0.25,2.0,2.0,1.0,0.25,1.0,1.0,1.0,0.5,2.0,2.0,1.0,1.0,normal,mega,0

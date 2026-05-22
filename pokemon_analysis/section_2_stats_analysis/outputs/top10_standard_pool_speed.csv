@@ -1,0 +1,11 @@
+id,generation,name,type1,type2,total,hp,attack,defense,sp_attack,sp_defense,speed,base_egg_steps,base_happiness,capture_rate,experience_growth,height_m,weight_kg,against_bug,against_dark,against_dragon,against_electric,against_fairy,against_fight,against_fire,against_flying,against_ghost,against_grass,against_ground,against_ice,against_normal,against_poison,against_psychic,against_rock,against_steel,against_water,official_class,special_group,standard
+291,3,Ninjask,bug,flying,456,61,90,45,50,50,160,3840,70,120,600000,0.8,12.0,0.5,1.0,1.0,2.0,1.0,0.25,2.0,2.0,1.0,0.25,0.0,2.0,1.0,1.0,1.0,4.0,1.0,1.0,normal,none,1
+101,1,Electrode,electric,,490,60,50,70,80,80,150,5120,70,60,1000000,1.2,66.6,1.0,1.0,1.0,0.5,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,normal,none,1
+101,1,Hisuian Electrode,electric,grass,490,60,50,70,80,80,150,5120,70,60,1000000,1.2,66.6,2.0,1.0,1.0,0.25,1.0,1.0,2.0,1.0,1.0,0.5,1.0,2.0,1.0,2.0,1.0,1.0,0.5,0.5,normal,none,1
+617,5,Accelgor,bug,,495,80,70,40,100,60,145,3840,70,75,1000000,0.8,25.3,1.0,1.0,1.0,1.0,1.0,0.5,2.0,2.0,1.0,0.5,0.5,1.0,1.0,1.0,1.0,2.0,1.0,1.0,normal,none,1
+847,8,Barraskewda,water,,490,61,123,60,60,50,136,5120,50,60,1250000,1.3,30.0,1.0,1.0,1.0,2.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,0.5,1.0,1.0,1.0,1.0,0.5,0.5,normal,none,1
+555,5,Galarian Zen Mode,ice,fire,540,105,160,55,30,55,135,5120,70,60,1059860,1.3,92.9,0.5,1.0,1.0,1.0,0.5,2.0,1.0,1.0,1.0,0.5,2.0,0.25,1.0,1.0,1.0,4.0,1.0,2.0,normal,none,1
+658,6,Greninja Ash-Greninja,water,dark,640,72,145,67,153,71,132,5120,70,45,1059860,1.5,40.0,2.0,0.5,1.0,2.0,2.0,2.0,0.5,1.0,0.5,2.0,1.0,0.5,1.0,1.0,0.0,1.0,0.5,0.5,normal,none,1
+142,1,Aerodactyl,rock,flying,515,80,105,65,60,75,130,8960,70,45,1250000,1.8,59.0,0.5,1.0,1.0,2.0,1.0,1.0,0.5,0.5,1.0,1.0,0.0,2.0,0.5,0.5,1.0,2.0,2.0,2.0,normal,none,1
+169,2,Crobat,poison,flying,535,85,90,80,70,80,130,3840,70,90,1000000,1.8,75.0,0.25,1.0,1.0,2.0,0.5,0.25,1.0,1.0,1.0,0.25,0.0,2.0,1.0,0.5,2.0,2.0,1.0,1.0,normal,none,1
+875,8,Eiscue Noice Face,ice,,470,75,80,70,65,50,130,6400,50,60,1250000,1.4,89.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,2.0,2.0,1.0,normal,none,1

@@ -1,0 +1,11 @@
+id,generation,name,type1,type2,total,hp,attack,defense,sp_attack,sp_defense,speed,base_egg_steps,base_happiness,capture_rate,experience_growth,height_m,weight_kg,against_bug,against_dark,against_dragon,against_electric,against_fairy,against_fight,against_fire,against_flying,against_ghost,against_grass,against_ground,against_ice,against_normal,against_poison,against_psychic,against_rock,against_steel,against_water,official_class,special_group,standard
+150,1,Mega Mewtwo X,psychic,fighting,780,106,190,100,154,100,130,30720,0,3,1250000,2.0,122.0,1.0,1.0,1.0,1.0,2.0,0.5,1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,legendary,mega,0
+214,2,Mega Heracross,bug,fighting,600,80,185,115,40,105,75,6400,70,45,1250000,1.5,54.0,0.5,0.5,1.0,1.0,2.0,0.5,2.0,4.0,1.0,0.5,0.5,1.0,1.0,1.0,2.0,1.0,1.0,1.0,normal,mega,0
+798,7,Kartana,grass,steel,570,59,181,131,59,31,109,30720,0,45,1250000,0.3,0.1,1.0,1.0,0.5,0.5,0.5,2.0,4.0,1.0,1.0,0.25,1.0,1.0,0.5,0.0,0.5,0.5,0.5,0.5,normal,ultra_beast,0
+386,3,Deoxys Attack Forme,psychic,,600,50,180,20,180,20,150,30720,0,3,1250000,1.7,60.8,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,mythical,none,0
+384,3,Mega Rayquaza,dragon,flying,780,105,180,100,180,100,115,30720,0,45,1250000,7.0,206.5,0.5,1.0,2.0,1.0,2.0,0.5,0.5,1.0,1.0,0.25,0.0,4.0,1.0,1.0,1.0,2.0,1.0,0.5,legendary,mega,0
+383,3,Primal Groudon,ground,fire,770,100,180,160,150,90,90,30720,0,3,1250000,3.5,950.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,2.0,1.0,2.0,1.0,0.5,1.0,0.5,1.0,2.0,legendary,none,0
+646,5,Black Kyurem,dragon,ice,700,125,170,100,120,90,95,30720,0,3,1250000,3.0,325.0,1.0,1.0,2.0,0.5,2.0,2.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,2.0,2.0,0.5,legendary,none,0
+445,4,Mega Garchomp,dragon,ground,700,108,170,115,120,95,92,10240,70,45,1250000,1.9,95.0,1.0,1.0,2.0,0.0,2.0,1.0,0.5,1.0,1.0,1.0,1.0,4.0,1.0,0.5,1.0,0.5,1.0,1.0,normal,mega,0
+800,7,Ultra Necrozma,psychic,dragon,754,97,167,97,167,97,129,30720,0,255,1250000,2.4,230.0,2.0,2.0,2.0,0.5,2.0,0.5,0.5,1.0,2.0,0.5,1.0,2.0,1.0,1.0,0.5,1.0,1.0,0.5,legendary,none,0
+898,8,Calyrex Ice Rider,psychic,ice,680,100,165,150,85,130,50,30720,100,3,1250000,1.1,7.7,2.0,2.0,1.0,1.0,1.0,1.0,2.0,1.0,2.0,1.0,1.0,0.5,1.0,1.0,0.5,2.0,2.0,1.0,legendary,none,0
