@@ -25,3 +25,7 @@ pip-wheel-metadata/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Pokemon analysis backups and archives
+pokemon_analysis/PokeStats_cleaned_backup_*.csv
+pokemon_analysis/archive/
