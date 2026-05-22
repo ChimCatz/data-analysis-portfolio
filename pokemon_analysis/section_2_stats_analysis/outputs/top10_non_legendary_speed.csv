@@ -1,0 +1,11 @@
+pokedex_id,name,type1,type2,official_class,special_group,total_base_stats,hp,attack,defense,sp_attack,sp_defense,speed
+291,Ninjask,bug,flying,normal,none,456,61,90,45,50,50,160
+795,Pheromosa,bug,fighting,normal,ultra_beast,570,71,137,37,137,37,151
+898,Calyrex Shadow Rider,psychic,ghost,normal,none,680,100,85,80,165,100,150
+142,Aerodactyl Mega Aerodactyl,rock,flying,normal,none,615,80,135,85,70,95,150
+65,Alakazam Mega Alakazam,psychic,,normal,none,600,55,50,65,175,105,150
+101,Electrode,electric,,normal,none,490,60,50,70,80,80,150
+101,Electrode Hisuian Electrode,electric,grass,normal,none,490,60,50,70,80,80,150
+254,Sceptile Mega Sceptile,grass,dragon,normal,none,630,70,110,75,145,85,145
+617,Accelgor,bug,,normal,none,495,80,70,40,100,60,145
+15,Beedrill Mega Beedrill,bug,poison,normal,none,495,65,150,40,15,80,145

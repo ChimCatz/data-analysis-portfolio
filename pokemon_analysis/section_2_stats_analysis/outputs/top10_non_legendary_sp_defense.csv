@@ -1,0 +1,11 @@
+pokedex_id,name,type1,type2,official_class,special_group,total_base_stats,hp,attack,defense,sp_attack,sp_defense,speed
+890,Eternatus Eternamax,poison,dragon,normal,none,1125,255,115,250,125,250,130
+213,Shuckle,bug,rock,normal,none,505,20,10,230,10,230,5
+382,Kyogre Primal Kyogre,water,,normal,none,770,100,150,90,180,160,90
+671,Florges,fairy,,normal,none,552,78,65,68,112,154,75
+380,Latias Mega Latias,dragon,psychic,normal,none,700,80,100,120,140,150,110
+706,Goodra,dragon,,normal,pseudo_legendary,600,90,100,70,110,150,80
+706,Goodra Hisuian Goodra,steel,dragon,normal,none,600,80,100,100,110,150,60
+476,Probopass,rock,steel,normal,none,525,60,55,145,75,150,40
+703,Carbink,rock,fairy,normal,none,500,50,50,150,50,150,50
+748,Toxapex,poison,water,normal,none,495,50,63,152,53,142,35

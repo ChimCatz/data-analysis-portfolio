@@ -1,0 +1,4 @@
+stat_pair,pearson_correlation,spearman_correlation,interpretation
+defense_vs_speed,-0.0271,0.03,very weak negative
+attack_vs_speed,0.3337,0.3283,weak positive
+sp_attack_vs_speed,0.3786,0.3631,weak positive

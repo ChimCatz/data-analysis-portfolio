@@ -23,7 +23,7 @@ The Netflix datasets used by the first analysis are included in `netflix-python-
 Pokemon analysis
 
 - `pokemon_analysis/` — Pokémon dataset enrichment and analysis project
-- Final dataset: `pokemon_analysis/PokeStats_final.csv`
+- Final dataset: `pokemon_analysis/complete_1025_pokemon_dataset.csv`
 - Backup copy: `pokemon_analysis/PokeStats_cleaned_backup_20260522.csv`
 - Archived old intermediate sources: `pokemon_analysis/archive/`
 

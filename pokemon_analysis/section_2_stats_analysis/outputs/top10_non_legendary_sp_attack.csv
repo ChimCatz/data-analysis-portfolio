@@ -1,0 +1,11 @@
+pokedex_id,name,type1,type2,official_class,special_group,total_base_stats,hp,attack,defense,sp_attack,sp_defense,speed
+150,Mewtwo Mega Mewtwo Y,psychic,,normal,none,780,106,150,70,194,120,140
+384,Rayquaza Mega Rayquaza,dragon,flying,normal,none,780,105,180,100,180,100,115
+382,Kyogre Primal Kyogre,water,,normal,none,770,100,150,90,180,160,90
+65,Alakazam Mega Alakazam,psychic,,normal,none,600,55,50,65,175,105,150
+796,Xurkitree,electric,,normal,ultra_beast,570,83,89,71,173,71,83
+646,Kyurem White Kyurem,dragon,ice,normal,none,700,125,120,90,170,100,95
+94,Gengar Mega Gengar,ghost,poison,normal,none,600,60,65,80,170,95,130
+800,Necrozma Ultra Necrozma,psychic,dragon,normal,none,754,97,167,97,167,97,129
+898,Calyrex Shadow Rider,psychic,ghost,normal,none,680,100,85,80,165,100,150
+282,Gardevoir Mega Gardevoir,psychic,fairy,normal,none,618,68,85,65,165,135,100

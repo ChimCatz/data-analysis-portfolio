@@ -4,7 +4,7 @@ This folder contains the Pokemon dataset enrichment and analysis project.
 
 ## Repository Layout
 
-- `PokeStats_final.csv` - final dataset ready for downstream analysis
+- `complete_1025_pokemon_dataset.csv` - final dataset ready for downstream analysis
 - `draft_analysis.txt` - long-form written analysis draft
 - `scripts/` - all Python scripts used for cleaning, enrichment, and analysis
 - `data/raw/` - original raw source files
@@ -17,7 +17,7 @@ This folder contains the Pokemon dataset enrichment and analysis project.
 
 ## Key Files
 
-- `PokeStats_final.csv` stays in the project root as the main public dataset
+- `complete_1025_pokemon_dataset.csv` stays in the project root as the main public dataset
 - `data/raw/PokeStats.csv` is the original raw Pokemon stats source
 - `data/intermediate/PokeStats_cleaned.csv` is the cleaned and enriched working dataset
 - `data/intermediate/PokeStats_cleaned_backup_20260522.csv` is the backup copy before finalizing
@@ -35,4 +35,4 @@ This folder contains the Pokemon dataset enrichment and analysis project.
 - `scripts/top_10_base_total_tables.py` - generates top-base-total stat tables
 - `scripts/analyze_capture_exp_class.py` - analyzes capture rate, experience growth, and official class
 
-Use `PokeStats_final.csv` for downstream analysis and modeling.
+Use `complete_1025_pokemon_dataset.csv` for downstream analysis and modeling.

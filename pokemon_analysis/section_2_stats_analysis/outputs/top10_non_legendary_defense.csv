@@ -1,0 +1,11 @@
+pokedex_id,name,type1,type2,official_class,special_group,total_base_stats,hp,attack,defense,sp_attack,sp_defense,speed
+890,Eternatus Eternamax,poison,dragon,normal,none,1125,255,115,250,125,250,130
+306,Aggron Mega Aggron,steel,,normal,none,630,70,140,230,60,80,50
+208,Steelix Mega Steelix,steel,ground,normal,none,610,75,125,230,55,95,30
+213,Shuckle,bug,rock,normal,none,505,20,10,230,10,230,5
+805,Stakataka,rock,steel,normal,ultra_beast,570,61,131,211,53,101,13
+208,Steelix,steel,ground,normal,none,510,75,85,200,55,65,30
+713,Avalugg,ice,,normal,none,514,95,117,184,44,46,28
+713,Avalugg Hisuian Avalugg,ice,rock,normal,none,514,95,127,184,34,36,38
+80,Slowbro Mega Slowbro,water,psychic,normal,none,590,95,75,180,130,80,30
+306,Aggron,steel,rock,normal,none,530,70,110,180,60,60,50

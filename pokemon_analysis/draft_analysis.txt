@@ -58,13 +58,84 @@ SECTION 2
 
 Another vital aspect of every Pokemon is their stats. There are six main stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. Those are the performance attributes that determine how a Pokemon performs in battle, so they are the next subject of analysis in this project.
 
+Q11: Which non-Legendary and non-Mythical Pokemon have the highest total base stats?
+
+Among the non-Legendary and non-Mythical Pokemon in this dataset, Eternatus Eternamax ranks first with 1,125 total base stats. The rest of the top 10 list is heavily dominated by special forms such as Mega Evolutions, Primal forms, Ultra Necrozma, and Zygarde Complete Forme, showing that alternate battle forms overwhelmingly occupy the highest stat totals in the dataset.
+
+Related files:
+- top10_non_legendary_total_base_stats.csv
+- top10_non_legendary_total_base_stats.png
+
+Q12: Which non-Legendary and non-Mythical Pokemon have the highest Attack?
+
+Mewtwo Mega Mewtwo X has the highest Attack among the filtered non-Legendary and non-Mythical Pokemon, with an Attack stat of 190. The top attack list is mostly filled with Mega forms and other powerful alternate forms, although Kartana also stands out as one of the strongest pure attackers in the group.
+
+Related files:
+- top10_non_legendary_attack.csv
+- top10_non_legendary_attack.png
+
+Q13: Which non-Legendary and non-Mythical Pokemon have the highest Defense?
+
+Eternatus Eternamax also leads the Defense ranking with a massive Defense stat of 250. Behind it are extremely defensive forms such as Mega Aggron and Mega Steelix, which shows that the top defense list is dominated by Pokemon designed as bulky walls or extreme-form stat monsters.
+
+Related files:
+- top10_non_legendary_defense.csv
+- top10_non_legendary_defense.png
+
+Q14: Which non-Legendary and non-Mythical Pokemon have the highest Special Attack?
+
+Mewtwo Mega Mewtwo Y ranks first in Special Attack with a towering Special Attack stat of 194. The top 10 special attack list is packed with offensive forms such as Mega Rayquaza, Primal Kyogre, and Ultra Necrozma, making it clear that special offense at the top end is concentrated among alternate forms with boosted totals.
+
+Related files:
+- top10_non_legendary_sp_attack.csv
+- top10_non_legendary_sp_attack.png
+
+Q15: Which non-Legendary and non-Mythical Pokemon have the highest Special Defense?
+
+Eternatus Eternamax has the highest Special Defense as well, reaching 250. The top Special Defense list mixes extreme forms with classic defensive specialists such as Shuckle, showing that high special bulk can come from both battle forms and naturally defense-oriented Pokemon.
+
+Related files:
+- top10_non_legendary_sp_defense.csv
+- top10_non_legendary_sp_defense.png
+
+Q16: Which non-Legendary and non-Mythical Pokemon are the fastest?
+
+Ninjask is the fastest non-Legendary and non-Mythical Pokemon in this dataset with a Speed stat of 160. The rest of the top 10 includes fast Ultra Beasts, Mega Evolutions, and alternate forms, which suggests that extreme speed is shared between naturally fast species and special transformed forms.
+
+Related files:
+- top10_non_legendary_speed.csv
+- top10_non_legendary_speed.png
+
+Q17: Are Pokemon with higher Defense usually slower?
+
+Pokemon with higher Defense are not usually slower based on these data. The Pearson correlation between Defense and Speed is -0.0271 while the Spearman correlation is 0.0300, which means the relationship is extremely close to zero and effectively very weak. Because one correlation is slightly negative and the other is slightly positive, the dataset does not support a clear pattern that high-defense Pokemon are usually slower.
+
+Related files:
+- defense_vs_speed_correlation.png
+- base_stat_correlation_summary.csv
+
+Q18: Are Pokemon with higher Attack usually slower?
+
+Pokemon with higher Attack are not usually slower in this dataset. The Pearson correlation is 0.3337 and the Spearman correlation is 0.3283, so the relationship is weak and positive rather than negative. This means higher Attack tends to be associated with slightly higher Speed on average, not lower Speed.
+
+Related files:
+- attack_vs_speed_correlation.png
+- base_stat_correlation_summary.csv
+
+Q19: Are Pokemon with higher Special Attack usually slower?
+
+Pokemon with higher Special Attack are also not usually slower in this dataset. The Pearson correlation is 0.3786 and the Spearman correlation is 0.3631, which indicates a weak positive relationship. In other words, Pokemon with stronger Special Attack tend to be slightly faster on average rather than slower.
+
+Related files:
+- sp_attack_vs_speed_correlation.png
+- base_stat_correlation_summary.csv
 
 SECTION 3
 
 Not all Pokemon are the same that is why apart from the Typing and Stat Totals, more hidden information are the classification, experience_growth, capture_rate, and many more. These information have little significance in the mainline gameplay but it is still important in some sense.
 
 
-Q11: Do Legendary and Mythical Pokemon generally have lower capture rates?
+Q20: Do Legendary and Mythical Pokemon generally have lower capture rates?
 
 Legendary and Mythical Pokemon do generally have lower capture rates. The mean capture rate is 99.67 for normal Pokemon, 16.65 for Legendary Pokemon, and 9.50 for Mythical Pokemon. This shows that official class is strongly connected to capture difficulty, with Legendary and Mythical Pokemon being much harder to catch on average.
 
@@ -73,7 +144,7 @@ Related files:
 - capture_rate_boxplot_by_class.png
 - avg_capture_rate_by_class.png
 
-Q12: Do Legendary and Mythical Pokemon generally require more experience to reach Level 100?
+Q21: Do Legendary and Mythical Pokemon generally require more experience to reach Level 100?
 
 Legendary and Mythical Pokemon do generally require more experience growth. The mean experience growth is 1,046,900.35 for normal Pokemon, 1,250,000.00 for Legendary Pokemon, and 1,224,648.00 for Mythical Pokemon. This means Legendary Pokemon usually follow the slowest growth curve, while Mythical Pokemon are also much closer to that higher experience requirement than normal Pokemon.
 
@@ -82,14 +153,14 @@ Related files:
 - exp_growth_boxplot_by_class.png
 - avg_exp_growth_by_class.png
 
-Q13: Is capture rate strongly related to experience growth?
+Q22: Is capture rate strongly related to experience growth?
 
 Capture rate and experience growth are not strongly related on their own. The Pearson correlation is -0.2512 and the Spearman correlation is -0.4004, so the relationship is weak to moderate and negative. This means Pokemon that need more experience growth tend to have lower capture rates, but the relationship is not strong enough to explain capture difficulty by experience growth alone.
 
 Related files:
 - capture_vs_exp_by_class.png
 
-Q14: Is official class a stronger signal than raw correlation?
+Q23: Is official class a stronger signal than raw correlation?
 
 Official class is a stronger signal than raw numeric correlation here because the group differences are much clearer than the overall correlation between capture_rate and experience_growth. Normal Pokemon have much higher capture rates on average, while Legendary and Mythical Pokemon have much lower capture rates and higher experience requirements. This suggests that the category of the Pokemon explains the pattern better than the numeric relationship alone.
 
