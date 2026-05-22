@@ -1,0 +1,4 @@
+official_class,count,mean,median,min,max,std
+normal,1097,99.67,60.0,3,255,73.66
+legendary,80,16.65,3.0,3,255,48.81
+mythical,30,9.5,3.0,3,45,14.99

@@ -7,10 +7,14 @@ import pandas as pd
 import re
 from pathlib import Path
 
-CLEANED_PATH = Path('pokemon_analysis/PokeStats_cleaned.csv')
-REFERENCE_PATH = Path('pokemon_analysis/pokemon_gen1to7_dataset.csv')
-SPECIAL_PATH = Path('pokemon_analysis/pokemon_special_classification.csv')
-OUTPUT_PATH = Path('pokemon_analysis/PokeStats_cleaned.csv')
+ROOT = Path(__file__).resolve().parents[1]
+DATA_INTERMEDIATE_DIR = ROOT / 'data' / 'intermediate'
+DATA_REFERENCE_DIR = ROOT / 'data' / 'references'
+
+CLEANED_PATH = DATA_INTERMEDIATE_DIR / 'PokeStats_cleaned.csv'
+REFERENCE_PATH = DATA_REFERENCE_DIR / 'pokemon_gen1to7_dataset.csv'
+SPECIAL_PATH = DATA_REFERENCE_DIR / 'pokemon_special_classification.csv'
+OUTPUT_PATH = DATA_INTERMEDIATE_DIR / 'PokeStats_cleaned.csv'
 
 ATTACK_COLUMNS = [
     'against_bug', 'against_dark', 'against_dragon', 'against_electric',
@@ -96,6 +100,7 @@ def build_special_mapping() -> pd.DataFrame:
 
 
 def merge_matchups():
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     cleaned = pd.read_csv(CLEANED_PATH)
     cleaned = cleaned.drop(columns=['official_class', 'special_group'], errors='ignore')
     cleaned['type1'] = cleaned['type1'].astype(str).str.strip().str.lower()

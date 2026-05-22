@@ -1,63 +1,100 @@
-Pokemon has always been a major anime for me. As a kid I first discovered Pokemon through Pokemon Emerald and since then I got hooked. I played the mainline Gen 3 Pokemon games such as Pokemon Emerald, Sapphire, FireRed, Leaf Green, before proceeding to newer gen leading up to the NDS Pokemon games (Black, White, Black 2, White 2, Heartgold and Soulsilver) and eventually to the newest Switch games (Sword/Shield, Scarlet/Violet, Legends: Arceus). Now with the explosive popularity of Pokemon Legends: ZA, what better way to honor my childhood game than to study it deeper and analyze it through the eyes of an analyst.
+Pokemon has always been a major anime for me. As a kid I first discovered Pokemon through Pokemon Emerald and since then I got hooked. I played the mainline Gen 3 Pokemon games such as Emerald, Sapphire, FireRed, Leaf Green, before proceeding to newer gen leading up to the NDS Pokemon games (Black, White, Black 2, White 2, HeartGold and SoulSilver) and eventually to the newest Switch games (Sword/Shield, Scarlet/Violet, Legends: Arceus). Now with the explosive popularity of Pokemon Legends: ZA, what better way to honor my childhood game than to study it deeper and analyze it through the eyes of an analyst.
 
-Using a public dataset compiled by generous and diehard people and open-sourced on Kaggle. I am now working with a much larger dataset of 1,190 Pokémon from Gens 1 to 9, including their stat totals, evolution points, Japanese name, experience growth, and many more.
+Using a public dataset compiled by generous and diehard people and open-sourced on Kaggle, I am now working with a dataset covering 1,025 Pokédex IDs and 1,207 total rows from Generation 1 through Generation 9. The final cleaned dataset includes alternate forms, Mega variants, paradox forms, and additional numeric fields such as experience growth, height, weight, base egg steps, base happiness, and capture rate.
 
-As a long-time Pokémon player there are questions I had in the back of my mind and through this updated dataset I am able to answer them more completely.
+As a long-time Pokemon player there are questions I had in the back of my mind and through this updated dataset I am able to answer them more completely.
 
-The first order of business are the Pokemon Types. Like rock-paper-scissors, each type has its own weakness and strengths. But it's not that easy, Pokemon also has a concept called Double Typing where some Pokemon has two types instead of one making the matrix more complicated and exciting.
+SECTION 1
 
-Using Python libraries pandas, numpy and matplotlib inside VScode, I was able to generate a 18x18 matrix and populate them with damage multipliers.
+The first order of business are the Pokemon types. Like rock-paper-scissors, each type has its own weaknesses and strengths. But it is not that easy: Pokemon also has a concept called double typing where some Pokemon have two types instead of one, making the matchup matrix more complicated and exciting.
+
+Using Python libraries pandas, numpy, and matplotlib inside VS Code, I generated an 18x18 type matchup matrix and populated it with defensive damage multipliers.
 
 [type-match-matrix.png]
 
 With these data we can answer the following questions:
 
-Q1: From Generation 1 to 9, which Single typing is the MOST and LEAST common?
-Most common: Water — 81 single-type Water Pokémon.
-Least common: Flying — 4 single-type Flying Pokémon. This includes Tornadus Incarnate Forme, Tornadus Therian Forme, Rookidee, and Corvisquire.
+Q1: From Generation 1 to 9, which single typing is the MOST and LEAST common?
+Most common: Water — 81 single-type Water Pokemon.
+Least common: Flying — 4 single-type Flying Pokemon.
 
-Q2: From Generation 1 to 9, which Double typing is the MOST and LEAST common?
-Most common: Normal/Flying — 31 Pokémon.
-Several double-type combinations now only appear once, including Fire/Dark, Fighting/Electric, Fighting/Ice, Steel/Fighting, and Water/Steel.
+Q2: From Generation 1 to 9, which double typing is the MOST and LEAST common?
+Most common: Normal/Flying — 31 Pokemon.
+Several double-type combinations appear only once in this dataset. Examples include Fairy/Ice, Electric/Psychic, Dragon/Fairy, Bug/Ghost, Steel/Water, Normal/Water, Ghost/Ice, Electric/Fire, and Fire/Steel.
 
-Q3: Which Single Typing has the best offensive capability?
+Q3: Which single typing has the best offensive capability?
 
-For offense, the question is about which type can hit the most other types for super effective damage. Based on the matchup chart, Fighting and Ground are tied as the best offensive single types, with each type being super effective against 5 types. Fighting is strong against Normal, Ice, Rock, Dark, and Steel, making it very useful against tough and common defensive types. Ground is also powerful because it hits Fire, Electric, Poison, Rock, and Steel, including Electric, which is usually hard to counter. This shows that both types have strong attacking coverage, but they succeed in different matchups. Overall, the best offensive single type is a tie between Fighting and Ground.
+Fighting and Ground are tied for the best offensive single type, each with 5 super-effective matchups. Fighting is strong against Normal, Ice, Rock, Dark, and Steel. Ground is strong against Fire, Electric, Poison, Rock, and Steel. Both types provide excellent offensive coverage, but they succeed in different matchups.
 
-Q4: Which Single Typing has the best defensive capability?
+Q4: Which single typing has the best defensive capability?
 
-For defense, the focus is not about how hard a type can hit, but how well it can survive attacks from other types. Using the defensive score formula, resistances minus weaknesses, Steel is the best defensive single type with a score of 8. Steel has 11 resistances and only 3 weaknesses, which gives it one of the strongest defensive profiles in the game. This means Steel can safely take many attacks that would deal normal or heavy damage to other types. It works well as a defensive anchor because many types struggle to break through it. Based on this, Steel stands out as the best single type for defense.
+Steel is the best defensive single type with a defensive score of 10. It resists 11 attacker types and has only 3 weaknesses, making it one of the strongest defensive profiles in the game.
 
-Q5: Which Single Typing has the worst offensive capability?
+Q5: Which single typing has the worst offensive capability?
 
-For the worst offensive type, we look for the type that has the fewest super effective matchups. Normal is the weakest offensive single type because it does not hit any type for super effective damage. This means Normal-type attacks are never the best option when trying to exploit an opponent’s weakness. While Normal can still deal neutral damage to many types, it lacks the offensive pressure that types like Fighting, Ground, Fire, or Ice can provide. It also struggles against Rock and Steel, while Ghost is completely immune to Normal-type attacks. Because of this, Normal has the worst offensive capability among single types.
+Normal is the worst offensive single type because it has zero super-effective matchups. Normal attacks are never the best option for exploiting opponent weaknesses and are completely ineffective against Ghost.
 
-Q6: Which Single Typing has the worst defensive capability?
-For the weakest defensive type, the analysis looks at how many resistances and weaknesses each type has. Ice is the worst defensive single type, with a defensive score of -3. It has only 1 resistance, which is against Ice itself, but it has 4 weaknesses: Fire, Fighting, Rock, and Steel. This makes Ice very risky defensively because many common attacking types can punish it. Even though Ice is often strong offensively, it does not perform well when used as a defensive type. So in this analysis, Ice has the worst defensive capability because it has too many weaknesses and too few resistances.
+Q6: Which single typing has the worst defensive capability?
+
+Ice is the worst defensive single type with a defensive score of -3. It has only one resistance and four major weaknesses: Fire, Fighting, Rock, and Steel.
+
+Q7: Which double typing Pokemon has the best offensive capability?
+
+Several double-type combinations are tied for the best offensive coverage with 7 super-effective matchups. Examples include Grass/Dark, Grass/Ice, Grass/Psychic, Rock/Fighting, and Rock/Psychic.
+
+Q8: Which double typing Pokemon has the worst offensive capability?
+
+Several double-type combinations have only a single super-effective matchup. Examples include Bug/Steel, Dark/Ghost, Dark/Poison, Electric/Water, Normal/Ghost, and Water/Ground.
+
+Q9: Which double typing Pokemon has the best defensive capability?
+
+Fairy/Steel and Steel/Ghost are the strongest defensive combinations, each with a defensive score of 11. These combinations resist the most attacker types and are among the hardest defensive builds to break.
+
+Q10: Which double typing Pokemon has the worst defensive capability?
+
+Grass/Dragon and Ice/Psychic are tied for the weakest defensive score at -4. These combinations suffer from multiple strong weaknesses and limited resistance options.
+
+SECTION 2
+
+Another vital aspect of every Pokemon is their stats. There are six main stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. Those are the performance attributes that determine how a Pokemon performs in battle, so they are the next subject of analysis in this project.
 
 
-Q7: Which Double Typing Pokemon has the best offensive capability?
-Fighting/Ice and Ground/Ice
-Both these types can hit 9 different types.
-Fighting/Ice are supereffective against Dark, Dragon, Flying, Grass, Ground, Ice, Normal, Rock, and Steel types.
-Ground/Ice are supereffective against Dragon, Electric, Fire, Flying, Grass, Ground, Poison, Rock, and Steel types.
+SECTION 3
+
+Not all Pokemon are the same that is why apart from the Typing and Stat Totals, more hidden information are the classification, experience_growth, capture_rate, and many more. These information have little significance in the mainline gameplay but it is still important in some sense.
 
 
-Q8: Which Double Typing Pokemon has the worst offensive capability?
-Normal/Dragon
-This type can only hit 1 type supereffectively: Dragon.
+Q11: Do Legendary and Mythical Pokemon generally have lower capture rates?
 
+Legendary and Mythical Pokemon do generally have lower capture rates. The mean capture rate is 99.67 for normal Pokemon, 16.65 for Legendary Pokemon, and 9.50 for Mythical Pokemon. This shows that official class is strongly connected to capture difficulty, with Legendary and Mythical Pokemon being much harder to catch on average.
 
-Q9: Which Double Typing Pokemon has the best defensive capability?
-Electric/Steel and Steel/Fairy
-Both have a defensive score of 9.
-Electric/Steel resists Bug, Dragon, Electric, Fairy, Flying, Grass, Ice, Normal, Psychic, Rock, and Steel, and is immune to Poison.
-Steel/Fairy resists Bug, Dark, Fairy, Flying, Grass, Ice, Normal, Psychic, and Rock, and is immune to Dragon and Poison.
+Related files:
+- capture_rate_by_official_class.csv
+- capture_rate_boxplot_by_class.png
+- avg_capture_rate_by_class.png
 
+Q12: Do Legendary and Mythical Pokemon generally require more experience to reach Level 100?
 
-Q10: Which Double Typing Pokemon has the worst defensive capability?
-Ice/Psychic
-It has a defensive score of -4.
-Ice/Psychic is very weak to Bug, Dark, Fire, Ghost, Rock, and Steel, and it only resists Ice and Psychic.
+Legendary and Mythical Pokemon do generally require more experience growth. The mean experience growth is 1,046,900.35 for normal Pokemon, 1,250,000.00 for Legendary Pokemon, and 1,224,648.00 for Mythical Pokemon. This means Legendary Pokemon usually follow the slowest growth curve, while Mythical Pokemon are also much closer to that higher experience requirement than normal Pokemon.
 
-Another vital aspect of every Pokemon are their stats. How cute they are, how well designed, NO. No those stats but how well they are in performance. There are 6 main Pokemon stats such as Attack, HP, Defense, Special Attack, Special Defense, and Speed. 
+Related files:
+- experience_growth_by_official_class.csv
+- exp_growth_boxplot_by_class.png
+- avg_exp_growth_by_class.png
+
+Q13: Is capture rate strongly related to experience growth?
+
+Capture rate and experience growth are not strongly related on their own. The Pearson correlation is -0.2512 and the Spearman correlation is -0.4004, so the relationship is weak to moderate and negative. This means Pokemon that need more experience growth tend to have lower capture rates, but the relationship is not strong enough to explain capture difficulty by experience growth alone.
+
+Related files:
+- capture_vs_exp_by_class.png
+
+Q14: Is official class a stronger signal than raw correlation?
+
+Official class is a stronger signal than raw numeric correlation here because the group differences are much clearer than the overall correlation between capture_rate and experience_growth. Normal Pokemon have much higher capture rates on average, while Legendary and Mythical Pokemon have much lower capture rates and higher experience requirements. This suggests that the category of the Pokemon explains the pattern better than the numeric relationship alone.
+
+Related files:
+- official_class_distribution.csv
+- capture_rate_by_official_class.csv
+- experience_growth_by_official_class.csv
+- capture_vs_exp_by_class.png

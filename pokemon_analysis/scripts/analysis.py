@@ -1,7 +1,13 @@
+from pathlib import Path
+
 import pandas as pd
 
+ROOT = Path(__file__).resolve().parents[1]
+REFERENCE_DATASET = ROOT / "data" / "references" / "pokemon_gen1to7_dataset.csv"
+OUTPUT_PATH = ROOT / "data" / "archive" / "pokemon_column_summary.csv"
+
 # Load the Pokemon dataset
-df = pd.read_csv("pokemon_gen1to7_dataset.csv")
+df = pd.read_csv(REFERENCE_DATASET)
 
 # Create a simple column description table
 column_summary = pd.DataFrame({
@@ -24,4 +30,5 @@ column_summary = pd.DataFrame({
 print(column_summary)
 
 # Optional: export to CSV
-column_summary.to_csv("pokemon_column_summary.csv", index=False)
+OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+column_summary.to_csv(OUTPUT_PATH, index=False)

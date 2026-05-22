@@ -6,8 +6,12 @@ ID, Name, Type1, Type2, Total, HP, Attack, Defense, Sp. Atk, Sp. Def, Speed
 from pathlib import Path
 import csv
 
-INPUT = Path('pokemon_analysis/PokeStats.csv')
-OUTPUT = Path('pokemon_analysis/PokeStats_cleaned.csv')
+ROOT = Path(__file__).resolve().parents[1]
+DATA_RAW_DIR = ROOT / 'data' / 'raw'
+DATA_INTERMEDIATE_DIR = ROOT / 'data' / 'intermediate'
+
+INPUT = DATA_RAW_DIR / 'PokeStats.csv'
+OUTPUT = DATA_INTERMEDIATE_DIR / 'PokeStats_cleaned.csv'
 TYPE_NAMES = [
     'normal', 'fire', 'water', 'electric', 'grass', 'ice', 'fighting', 'poison',
     'ground', 'flying', 'psychic', 'bug', 'rock', 'ghost', 'dragon', 'dark',
@@ -66,6 +70,7 @@ def decode_line(line: str) -> str:
 def clean():
     rows = []
     errors = []
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 
     with INPUT.open('r', encoding='utf-8', errors='replace') as f:
         lines = [l.rstrip('\n') for l in f]

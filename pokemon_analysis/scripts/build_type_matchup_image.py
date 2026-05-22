@@ -9,8 +9,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-CSV = Path('pokemon_analysis/pokemon_gen1to7_dataset.csv')
-OUT = Path('pokemon_analysis/type_matchup_matrix.png')
+ROOT = Path(__file__).resolve().parents[1]
+CSV = ROOT / 'data' / 'references' / 'pokemon_gen1to7_dataset.csv'
+OUT = ROOT / 'section_1_typing_analysis' / 'outputs' / 'type_matchup_matrix.png'
 
 TYPE_NAMES = [
     'normal','fire','water','electric','grass','ice','fighting','poison',
@@ -18,6 +19,7 @@ TYPE_NAMES = [
 ]
 
 # Load dataset
+OUT.parent.mkdir(parents=True, exist_ok=True)
 df = pd.read_csv(CSV)
 
 # Defensive columns map: prefer against_<type> but handle naming mismatches

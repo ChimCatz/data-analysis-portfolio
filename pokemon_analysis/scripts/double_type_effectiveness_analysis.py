@@ -11,6 +11,11 @@ Output:
 """
 
 import pandas as pd
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+REFERENCE_DATASET = ROOT / 'data' / 'references' / 'pokemon_gen1to7_dataset.csv'
+OUTPUT_PATH = ROOT / 'section_1_typing_analysis' / 'outputs' / 'double_type_effectiveness_results.csv'
 
 # Pokemon type matchup chart (offensive effectiveness)
 # Key: type -> list of types it is super effective against
@@ -115,10 +120,11 @@ def summarize_results(results: pd.DataFrame) -> None:
 
 
 def main() -> None:
-    df = load_dataset('pokemon_analysis/pokemon_gen1to7_dataset.csv')
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    df = load_dataset(str(REFERENCE_DATASET))
     results = build_double_type_results(df)
     results.sort_values(['type1', 'type2'], inplace=True)
-    results.to_csv('pokemon_analysis/double_type_effectiveness_results.csv', index=False)
+    results.to_csv(OUTPUT_PATH, index=False)
     summarize_results(results)
 
 

@@ -8,8 +8,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-DATA_PATH = Path('pokemon_analysis/pokemon_gen1to7_dataset.csv')
-OUT_PATH = Path('pokemon_analysis/top_10_base_total_tables.png')
+ROOT = Path(__file__).resolve().parents[1]
+DATA_PATH = ROOT / 'data' / 'references' / 'pokemon_gen1to7_dataset.csv'
+OUT_PATH = ROOT / 'section_2_stats_analysis' / 'outputs' / 'top_10_base_total_tables.png'
 
 COLUMNS = ['pokedex_number', 'name', 'type1', 'type2', 'base_total', 'hp', 'attack', 'defense', 'sp_attack', 'sp_defense', 'speed']
 
@@ -62,6 +63,7 @@ def render_tables(non_legendary: pd.DataFrame, legendary: pd.DataFrame, out_path
 
 
 def main() -> None:
+    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     df = load_data(DATA_PATH)
     non_legendary = top_n_by_base_total(df, legendary=False, n=10)
     legendary = top_n_by_base_total(df, legendary=True, n=10)
